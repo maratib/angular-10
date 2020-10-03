@@ -1,4 +1,5 @@
-Angular 10 
+Angular 10 learned
+
 
 ### creating new Project
 ```bash
