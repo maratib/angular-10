@@ -28,7 +28,9 @@ No need to import the common components individually.
 ```bash
 ng g m shared
 #or with routing
-ng g m shared --routing
+#ng g m shared --routing
+#adding a service to shared module
+ng g s services/log --module shared.module 
 ```
 
 ## Lazy Loading feature modules
@@ -38,6 +40,11 @@ ng g m shared --routing
 #Creating child route
 ng g m pages/about --route about --module app.module 
 #It will create the component files and add the route to app-router.module.ts
+```
+## Adding Services
+```bash
+#Adding service
+ng g s services/local/Logger
 ```
 
 ## Adding graphQL Apollo Client
